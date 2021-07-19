@@ -13,6 +13,7 @@
 		F299FEF926A3DD6300EB5717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F299FEF726A3DD6300EB5717 /* Main.storyboard */; };
 		F299FEFB26A3DD6600EB5717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F299FEFA26A3DD6600EB5717 /* Assets.xcassets */; };
 		F299FEFE26A3DD6600EB5717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F299FEFC26A3DD6600EB5717 /* LaunchScreen.storyboard */; };
+		F299FF0826A4090500EB5717 /* Launch Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F299FF0726A4090500EB5717 /* Launch Screen2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F299FEFA26A3DD6600EB5717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F299FEFD26A3DD6600EB5717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F299FEFF26A3DD6600EB5717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F299FF0726A4090500EB5717 /* Launch Screen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen2.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F299FEF126A3DD6300EB5717 /* AppDelegate.swift */,
+				F299FF0726A4090500EB5717 /* Launch Screen2.storyboard */,
 				F299FEF326A3DD6300EB5717 /* SceneDelegate.swift */,
 				F299FEF526A3DD6300EB5717 /* ViewController.swift */,
 				F299FEF726A3DD6300EB5717 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F299FEFE26A3DD6600EB5717 /* LaunchScreen.storyboard in Resources */,
+				F299FF0826A4090500EB5717 /* Launch Screen2.storyboard in Resources */,
 				F299FEFB26A3DD6600EB5717 /* Assets.xcassets in Resources */,
 				F299FEF926A3DD6300EB5717 /* Main.storyboard in Resources */,
 			);
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ujeon.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ujeon.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
